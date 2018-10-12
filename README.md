@@ -1,3 +1,10 @@
+# The Test code 
+- download the pretrained model from google drive: [SiamRPNBIG.model](https://drive.google.com/file/d/1-vNVZxfbIplXHrqMHiJJYWXYWsOIvGsf/view?usp=sharing), and put it in './code'.
+
+- install pytorch, numpy, opencv following the instructions in the `run_install.sh`. Please do **not** use conda to install.
+
+- modify the **imagedir** and **gtdir** in test.py
+
 # DaSiamRPN
 
 This repository includes PyTorch code for reproducing the results on VOT2018.
@@ -8,20 +15,6 @@ Zheng Zhu<sup>\*</sup>, Qiang Wang<sup>\*</sup>, Bo Li<sup>\*</sup>, Wei Wu, Jun
 
 *European Conference on Computer Vision (ECCV), 2018*
 
-
-## Pretrained model for SiamRPN
-
-- download the pretrained model from google drive: [SiamRPNBIG.model](https://drive.google.com/file/d/1-vNVZxfbIplXHrqMHiJJYWXYWsOIvGsf/view?usp=sharing), and put it in './code'.
-
-
-
-## Install the prerequisites
-
-- install pytorch, numpy, opencv following the instructions in the `run_install.sh`. Please do **not** use conda to install.
-
-## Modify the test.py
-
-- modify the **imagedir** and **gtdir** in test.py
 
 
 # License
